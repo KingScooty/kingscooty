@@ -1,21 +1,21 @@
 {
-  "name": "bitandbang",
-  "version": "1.3.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "kingscooty",
+  "version": "1.0.0",
+  "description": "A personal card for Scotty Vernon (@kingscooty)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "kingscooty": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/kingscooty/kingscooty.git"
   },
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./bin/card.js"
   },
   "keywords": [
     "card",
@@ -25,7 +25,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Scotty Vernon <hello@wildflame.co.uk> (http://wildflame.co.uk)",
   "license": "MIT",
   "files": [
     "bin/card.js",
